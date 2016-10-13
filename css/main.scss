@@ -26,9 +26,23 @@ h3,
 h4,
 h5,
 h6,
-.post-link {
+.post-link,
+.post-title {
   font-family: 'Unica One', cursive;
   color: $brand-primary;
+}
+.post-title {
+  text-align: center;
+}
+
+.post-image {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.content {
+  text-align: justify;
 }
 
 .wrapper {
